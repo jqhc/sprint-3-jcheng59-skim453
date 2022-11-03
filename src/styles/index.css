@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'cyberpunk';
+  src: url('./cyberpunk_font/cyberpunkwaifus-webfont.woff2') format('woff2'),
+       url('./cyberpunk_font/cyberpunkwaifus-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color:#d6d6d6;
+  overflow: hidden;
+  height: 100%;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  font-family:'cyberpunk';
+}
+
+#header-text {
+  font-size: 40px;
+  margin: 15px;
+}
+
+#header-separator {
+  border: solid 2px rgb(107, 107, 107);
+}

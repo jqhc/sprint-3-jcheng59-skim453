@@ -1,0 +1,22 @@
+.getcsv-table-div {
+    overflow-x: scroll;
+    width: 100%;
+    margin-top:5px;
+}
+
+.getcsv-table {
+    border: 1px solid #307a54;
+    width: 98.8%;
+    border-collapse: collapse;
+    margin: 0.6%;
+}
+
+.getcsv-table-row:hover {
+    background-color: #78b985;
+}
+
+.getcsv-table-entry {
+    text-align: center;
+    border: 1px solid #307a54;
+    padding: 8px;
+}
